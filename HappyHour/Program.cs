@@ -1,4 +1,6 @@
-﻿using System.Text.Json;
+﻿using System;
+using System.Text.Json;
+using NAudio;
 
 namespace HappyHour
 {
@@ -6,7 +8,9 @@ namespace HappyHour
     {
         public static async Task Main(string[] args)
         {
-            string header = "  _    _                           _    _                  \r\n | |  | |                         | |  | |                 \r\n | |__| | __ _ _ __  _ __  _   _  | |__| | ___  _   _ _ __ \r\n |  __  |/ _` | '_ \\| '_ \\| | | | |  __  |/ _ \\| | | | '__|\r\n | |  | | (_| | |_) | |_) | |_| | | |  | | (_) | |_| | |   \r\n |_|  |_|\\__,_| .__/| .__/ \\__, | |_|  |_|\\___/ \\__,_|_|   \r\n              | |   | |     __/ |                          \r\n              |_|   |_|    |___/    \n"
+            var backgroundMusicTask = Sounds.PlaySoundAsync();
+
+            string header = "  _    _                           _    _                  \r\n | |  | |                         | |  | |                 \r\n | |__| | __ _ _ __  _ __  _   _  | |__| | ___  _   _ _ __ \r\n |  __  |/ _` | '_ \\| '_ \\| | | | |  __  |/ _ \\| | | | '__|\r\n | |  | | (_| | |_) | |_) | |_| | | |  | | (_) | |_| | |   \r\n |_|  |_|\\__,_| .__/| .__/ \\__, | |_|  |_|\\___/ \\__,_|_|   \r\n              | |   | |     __/ |                          \r\n              |_|   |_|    |___/    \n";
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(header);
             Console.ForegroundColor = ConsoleColor.White;
