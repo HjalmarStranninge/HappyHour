@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyHour", "HappyHour\HappyHour.csproj", "{DF41DE01-1435-45EC-8628-0B9AF8A11139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF41DE01-1435-45EC-8628-0B9AF8A11139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF41DE01-1435-45EC-8628-0B9AF8A11139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF41DE01-1435-45EC-8628-0B9AF8A11139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF41DE01-1435-45EC-8628-0B9AF8A11139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80C238E8-F6DA-4BF5-91A3-C8D8A3612972}
+	EndGlobalSection
+EndGlobal
